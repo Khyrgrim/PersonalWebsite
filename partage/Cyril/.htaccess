@@ -1,0 +1,4 @@
+PerlSetVar AuthFile partage/Cyril/.htpasswd
+AuthName "Page d'administration protégée"
+AuthType Basic
+Require valid-user
